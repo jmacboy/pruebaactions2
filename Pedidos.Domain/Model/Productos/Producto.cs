@@ -14,7 +14,7 @@ namespace Pedidos.Domain.Model.Productos
 
         public CantidadValue StockActual { get; private set; }
 
-        public string Color { get; set; 
+        public string Color { get; set; }
 
         private Producto()
         {
