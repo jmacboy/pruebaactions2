@@ -14,12 +14,13 @@ namespace Pedidos.Domain.Model.Productos
 
         public CantidadValue StockActual { get; private set; }
 
-        public string Color { get; set; 
+        public string Color { get; set; }
 
         private Producto()
         {
             PrecioVenta = 0;
             StockActual = 0;
+            StockActual = StockActual;
         }
 
         public Producto(string nombre, PrecioValue precioVenta, CantidadValue stockActual)
