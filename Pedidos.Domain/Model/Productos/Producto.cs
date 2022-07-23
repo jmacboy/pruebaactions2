@@ -20,6 +20,7 @@ namespace Pedidos.Domain.Model.Productos
         {
             PrecioVenta = 0;
             StockActual = 0;
+            StockActual = StockActual;
         }
 
         public Producto(string nombre, PrecioValue precioVenta, CantidadValue stockActual)
